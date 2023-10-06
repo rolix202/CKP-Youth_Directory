@@ -1,0 +1,90 @@
+.hero_section {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 100vh;
+}
+
+.content {
+    width: 70%;
+    color: white;
+    align-self: center;
+    text-align: center;
+}
+
+.hero_h1 {
+    font-size: 40px;
+    font-family: cursive;
+    padding-bottom: 20px;
+}
+
+.youth_span {
+    color: greenyellow;
+    font-weight: 800;
+}
+
+.hero_p {
+    font-size: 18px;
+}
+
+.explore,
+.grow,
+.learn {
+    border-bottom: solid 2px greenyellow;
+    font-weight: 700;
+}
+
+.custom-shape-divider-bottom-1695084398 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1695084398 svg {
+    position: relative;
+    display: block;
+    width: calc(120% + 1.3px);
+    height: 92px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1695084398 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1695084398 svg {
+        width: calc(118% + 1.3px);
+        height: 73px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1695084398 svg {
+        width: calc(125% + 1.3px);
+        height: 41px;
+    }
+
+    .content {
+        width: auto;
+    }
+
+    .hero_h1 {
+        font-size: 30px;
+    }
+
+    .hero_h1,
+    .hero_p,
+    .content button {
+        text-align: left;
+    }
+    .view_cbtn{
+        width: 75%;
+    }
+}

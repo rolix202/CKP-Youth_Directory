@@ -1,0 +1,50 @@
+
+.featured_image{
+    /* padding: 5px; */
+    height: 250px;
+    width: 240px;
+    overflow: hidden;
+    position: relative;
+}
+.featured_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+.featured_image:hover img{
+    transform: scale(1.2); 
+}
+
+.user_icon{
+    padding-right: 10px;
+}
+.user_name{
+    font-size: 18px;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+
+}
+.socials span{
+    margin-right: 15px;
+}
+.featured_card{
+    box-shadow: 0px 2px 9px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 9px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 9px -2px rgba(0,0,0,0.75);
+    padding: 10px;
+}
+.bio_icons{
+    font-size: 17px;
+    color: rgb(68, 75, 58);
+    padding-right: 4px;
+}
+@media (max-width: 767px){
+    .featured_image{
+        width: 100%;
+        height: 350px;
+    }
+}

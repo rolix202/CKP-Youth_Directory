@@ -1,0 +1,39 @@
+.nav_custom{
+    box-shadow: 0px 3px 7px rgba(243, 243, 243, 0.1);
+    background-color: #1b2430;
+}
+/* #collapse
+{
+    position: absolute;
+    z-index: 1;
+} */
+.custom_link{
+    color: rgb(223, 217, 217);
+}
+.custom_link:hover{
+    color: green;
+}
+.navbar-nav .nav-link.active{
+    color: white;
+}
+.custom_link::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    left: 0;
+    bottom: -1px;
+    background-color: greenyellow;
+    transition: 0.3s;
+}
+.nav-link.active::before,
+.nav-link.active::after,
+.custom_link:hover::before{
+    width: 60%;
+}
+  .nav-link {
+    position: relative;
+  }
+  .navbar-toggler{
+    background-color: aliceblue;
+  }

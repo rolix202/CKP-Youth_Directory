@@ -1,0 +1,48 @@
+
+.section_cyonites{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+}
+/* .img_wrapper{
+    min-height: 250px;
+} */
+.cyonites_img{
+    border-radius: 50%;
+    box-shadow: 0px -1px 3px 4px rgba(255,255,255,0.75);
+-webkit-box-shadow: 0px -1px 3px 4px rgba(255,255,255,0.75);
+-moz-box-shadow: 0px -1px 3px 4px rgba(255,255,255,0.75);
+height: 220px;
+object-fit: cover;
+}
+
+.cyonite_name{
+    font-family: 'Caveat', cursive;
+}
+.cyonite_skill{
+    font-family: 'Jost', sans-serif;
+}
+.cyonite_birth{
+    margin-top: -10px;
+}
+.cyonite_info span{
+    font-size: 13px;
+    color: red;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    padding-right: 4px;
+    text-shadow: 3px -1px 4px rgba(40,182,57,0.6);
+}
+.cyonite_socials{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.cyonite_socials a{
+    margin-right: 10px;
+}
+@media (max-width: 767px){
+    .cyonites_img{
+        height: 320px;
+    }
+}

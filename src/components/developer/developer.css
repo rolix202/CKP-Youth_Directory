@@ -1,0 +1,140 @@
+.dev_section{
+    padding: 80px;
+}
+.dev_intro{
+    color: white;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.dev_image{
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    width: 100%;
+}
+.dev_intro h1{
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+    text-shadow: 2px 2px hsl(118, 91%, 22%), -2px 2px hsl(118, 91%, 22%), 2px -2px hsl(118, 91%, 22%), -2px -2px hsl(118, 91%, 22%), 5px 5px 0 rgb(0 0 0 / 20%);
+}
+.dev_intro p{
+    font-size: 20px;
+}
+.dev_intro p span{
+    color: yellowgreen;
+}
+.dev_bio{
+    color: white;
+    text-align: justify;
+}
+.dev_bio h1{
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+}
+
+.dev_bio h3 .aboutme_2ndspan {
+    color: yellowgreen;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    padding-left: 10px;
+}
+.dev_bio h3 .aboutme_1stspan{
+    font-family: 'Jost', sans-serif;
+}
+.dev_bio p{
+    font-size: 20px;
+}
+.dev_bio_span1{
+    color: yellowgreen;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+}
+/* .dev_bio_span2{
+    color: rgb(255, 0, 0);
+    font-style: italic;
+} */
+.contact_dev{
+    position: relative;
+    top: -60px;
+}
+.contact_dev h1{
+    font-family: 'Caveat', cursive;
+    color: white;
+}
+.contact_dev p{
+    color: white;
+}
+.contact_dev p span{
+    color: rgb(255, 102, 0);
+    font-size: 18px;
+}
+.dev_blockquote{
+    margin-top: 40px;
+}
+.dev_bio_p_last{
+    width: 75%;
+    margin: 0 auto;
+    font-family: 'Gelasio', serif;
+    font-style: italic;
+    position: relative;
+    top: -100px;
+}
+.send_msg{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.dev_blockquote::before{
+    content: open-quote;
+    font-size: 100px;
+    display: block;
+    font-style: italic;
+    font-family: 'Gelasio', serif ;
+    color: yellowgreen;
+    margin-left: 20px;
+}
+.dev_blockquote::after{
+    content: close-quote;
+    font-size: 100px;
+    display: block;
+    font-style: italic;
+    font-family: 'Gelasio', serif ;
+    color: yellowgreen;
+    margin-top: -140px;
+    position: absolute;
+    right: 130px;
+}
+
+@media (max-width: 767px){
+    .dev_section{
+        padding: 70px 0;
+    }
+    .dev_intro{
+        width: auto;
+    }
+    .dev_intro p{
+        margin-top: 40px;
+        font-size: 25px;
+        text-align: justify;
+        padding: 15px;
+    }
+    .dev_bio {
+        margin-top: 30px;
+        padding: 15px;
+    }
+    .dev_bio p{
+        font-size: 25px;
+    }
+    .dev_blockquote::before{
+        margin-left: 5px;
+    }
+    .dev_blockquote::after{
+        right: 50px;
+    }
+    .contact_dev{
+        margin: 15px;
+    }
+}

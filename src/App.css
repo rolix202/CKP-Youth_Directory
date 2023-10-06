@@ -1,0 +1,61 @@
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Gelasio:ital,wght@0,400;0,500;0,600;1,400;1,500;1,700&family=Jost:wght@400;500;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Gelasio', serif; */
+
+  /* color: white; */
+}
+/* --body-font: 'Jost', sans-serif;
+   --second-font: 'Caveat', cursive; */
+
+.featured_h1 h1 {
+  font-size: 44px;
+}
+.featured_h1 {
+  position: relative;
+}
+.featured_h1 h1::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 10%;
+  background-color: greenyellow;
+  bottom: 20px;
+}
+.featured_h3 {
+  font-family: cursive;
+}
+.section_headers{
+    margin-top: 150px;
+}
+.section_headers p{
+    width: 50%;
+    margin: 0 auto;
+}
+.section_footer{
+    background-color: #1b2430;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+@media (max-width: 767px) {
+    .featured_h1 h1{
+        font-size: 32px;
+    }
+    .featured_h1 h1::before{
+        width: 30%;
+        bottom: 15px;
+    }
+    .featured_h3{
+        font-size: 20px;
+    }
+    .section_headers p{
+        width: auto;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+}
