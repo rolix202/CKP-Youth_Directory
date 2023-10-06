@@ -138,3 +138,83 @@
         margin: 15px;
     }
 }
+
+@media ((min-width: 992px) and (max-width: 1199px)){
+    .dev_intro h1{
+        font-size: 50px;
+    }
+    .dev_intro p{
+        font-size: 16px;
+    }
+    .dev_bio h1{
+        font-size: 40px;
+    }
+    .dev_bio h3 .aboutme_2ndspan {
+        font-size: 30px;
+    }
+    .dev_bio h3 .aboutme_1stspan{
+        font-size: 18px;
+    }
+    .dev_section{
+        padding: 80px 10px;
+    }
+    .dev_bio p{
+        font-size: 16px;
+    }
+    .dev_bio_span1{
+        font-size: 25px;
+    }
+    .dev_blockquote::after{
+        right: 80px;
+    }
+    .contact_dev h1{
+        font-size: 35px;
+    }
+    .contact_dev p,
+    .contact_dev p span{
+        font-size: 15px;
+    }
+    .send_msg{
+        font-size: 16px;
+    }
+}
+@media ((min-width: 768px) and (max-width: 991px)){
+    .dev_intro h1{
+        font-size: 50px;
+    }
+    .dev_intro p{
+        font-size: 16px;
+    }
+    .dev_bio h1{
+        font-size: 40px;
+    }
+    .dev_bio h3 .aboutme_2ndspan {
+        font-size: 30px;
+    }
+    .dev_bio h3 .aboutme_1stspan{
+        font-size: 18px;
+    }
+    .dev_section{
+        padding: 80px 10px;
+    }
+    .dev_bio p{
+        font-size: 16px;
+    }
+    .dev_bio_span1{
+        font-size: 25px;
+    }
+    .dev_blockquote::after{
+        right: 80px;
+    }
+    .contact_dev h1{
+        font-size: 35px;
+    }
+    .contact_dev p,
+    .contact_dev p span{
+        font-size: 15px;
+    }
+    .send_msg{
+        font-size: 16px;
+        /* display: none; */
+    }
+}

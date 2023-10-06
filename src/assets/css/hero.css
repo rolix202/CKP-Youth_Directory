@@ -88,3 +88,11 @@
         width: 75%;
     }
 }
+@media ((min-width: 768px) and (max-width: 991px)){
+    .hero_h1 {
+        font-size: 60px;
+    }
+    .hero_p {
+        font-size: 25px;
+    }
+}

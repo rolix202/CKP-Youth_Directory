@@ -9,7 +9,7 @@ function CyoniteCard(props) {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         // backgroundPosition: "center", 
-        // height: "100%", 
+        // maxHeight: "100%", 
     }
     return (
         <div className="col">

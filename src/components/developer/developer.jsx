@@ -40,31 +40,33 @@ function Developer() {
                                 <p className="dev_bio_p_last">Let's work together to turn your ideas into a seamless online reality, where your business can thrive and grow organically. Your vision is my inspiration, and I'm here to bring it to life.
                                 </p>
                             </blockquote>
-                            
+
                         </div>
                         <div className="contact_dev">
-                            <div className="row">
-                                <div className="col-md-7">
-                                <h1>Contact Details</h1>
-                            <p><span><FaPhoneVolume /> </span> +2349050798489</p>
-                            <p><span><FaEnvelopeCircleCheck/> </span> williamsroland147@gmail.com</p>
-                                </div>
-                                <div className="col-md-5">
-                                    <div className="d-grid gap-2 h-100">
-                                        <button type="button"  className="btn btn-success btn-lg send_msg"
-                                        data-bs-toggle="modal"
-                                        data-bs-target="#modalForm">Send Message</button>
-                                        <Modal />
+                            <h1>Contact Details</h1>
+                            <div className="container p-0">
+                                <div className="row">
+                                    <div className="col-12 col-lg-7">
+
+                                        <p><span><FaPhoneVolume /> </span> +2349050798489</p>
+                                        <p><span><FaEnvelopeCircleCheck /> </span> williamsroland147@gmail.com</p>
+                                    </div>
+                                    <div className="col-12 col-lg-5">
+                                        <div className="d-grid gap-2 h-100">
+                                            <button type="button" className="btn btn-success btn-lg w-100 send_msg"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#modalForm">Send Message</button>
+                                            <Modal />
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            
-                        </div>
 
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-            </div>
-
+</div>
         </section>
     )
 }

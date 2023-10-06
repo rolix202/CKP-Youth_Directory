@@ -4,15 +4,17 @@
     margin-bottom: 70px;
     
 }
-/* .img_wrapper{
-    min-height: 250px;
-} */
+.img_wrapper{
+    height: 270px;
+}
 .cyonites_img{
     border-radius: 50%;
     box-shadow: 0px -1px 3px 4px rgba(255,255,255,0.75);
 -webkit-box-shadow: 0px -1px 3px 4px rgba(255,255,255,0.75);
 -moz-box-shadow: 0px -1px 3px 4px rgba(255,255,255,0.75);
-height: 220px;
+/* height: 230px; */
+height: 100%;
+/* width: 100%; */
 object-fit: cover;
 }
 
@@ -44,5 +46,18 @@ object-fit: cover;
 @media (max-width: 767px){
     .cyonites_img{
         height: 320px;
+    }
+    .img_wrapper{
+        height: 380px;
+    }
+}
+@media ((min-width: 992px) and (max-width: 1199px)){
+    .img_wrapper{
+        height: 350px;
+    }
+}
+@media ((min-width: 768px) and (max-width: 991px)){
+    .img_wrapper{
+        height: 360px;
     }
 }
