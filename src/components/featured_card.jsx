@@ -21,7 +21,7 @@ function FeaturedCard() {
     <section>
       <div className="container mt-5">
         <FeaturedHead />
-        <div className="row row-cols-1 row-cols-md-3 g-4 mt-4">
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4 mt-4">
           {featured_info.map((createCard))}
         </div>
       </div>

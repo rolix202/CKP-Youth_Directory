@@ -3,7 +3,7 @@ import { FaCircleUser } from "react-icons/fa6";
 
 function Card(props) {
   return (
-    <div className="col-md-3">
+    <div className="col">
       <div className="card featured_card h-100">
         <div className="featured_image card-img-top">
           <img src={props.image} className="card-img-top" alt="..." />

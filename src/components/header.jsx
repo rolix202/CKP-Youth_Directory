@@ -25,7 +25,7 @@ function Header() {
   return (
     <section >
         <nav className="navbar navbar-expand-lg fixed-top navbar-scroll nav_custom">
-          <div className="container">
+          <div className="container header_wrapper">
             <a className="navbar-brand" href="">
               <img src={images.Logo} alt="logo" className="logo"/>
             </a>

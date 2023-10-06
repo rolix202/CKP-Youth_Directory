@@ -2,7 +2,7 @@
 .featured_image{
     /* padding: 5px; */
     height: 250px;
-    width: 240px;
+    width: 100%;
     overflow: hidden;
     position: relative;
 }
@@ -46,5 +46,21 @@
     .featured_image{
         width: 100%;
         height: 350px;
+    }
+}
+@media ((min-width: 768px) and (max-width: 991px)){
+    .featured_image{
+        height: 350px;
+    }
+}
+@media (min-width: 992px){
+    .featured_image{
+        width: 100%;
+    }
+}
+@media ((min-width: 992px) and (max-width: 1199px)){
+    .featured_image{
+        height: 350px;
+
     }
 }
