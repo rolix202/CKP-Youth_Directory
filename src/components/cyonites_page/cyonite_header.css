@@ -1,0 +1,15 @@
+.cyonite_header{
+    margin-top: 70px;
+    padding: 70px;
+    color: white;
+}
+.cyonite_title{
+    text-align: center;
+}
+.cyonite_title h1{
+    font-size: 44px;
+}
+.cyonite_title p{
+    width: 75%;
+    margin: 0 auto;
+}

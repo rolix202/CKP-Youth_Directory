@@ -72,6 +72,86 @@ export const cyonites_info = [
         instagram: "",
         twitter: ""
     },
+    {
+        id: 5,
+        img: images.Roland,
+        name: "Oodo Roland Uchenna freeman",
+        skill: "Web Developer",
+        birthday: "13th December",
+        facebook: "",
+        instagram: "",
+        twitter: ""
+    },
+    {
+        id: 6,
+        img: images.testimonial2,
+        name: "Oodo Kingsley Chinedu",
+        skill: "Sales Representative",
+        birthday: "10th September",
+        facebook: "",
+        instagram: "",
+        twitter: ""
+    },
+    {
+        id: 7,
+        img: images.testimonial1,
+        name: "Iyidiobi Rotanna",
+        skill: "Civil Engineer",
+        birthday: "7th July",
+        facebook: "",
+        instagram: "",
+        twitter: ""
+    },
+    {
+        id: 8,
+        img: images.testimonial3,
+        name: "Mba Sopuluchukwu",
+        skill: "Lab Scientist",
+        birthday: "3rd March",
+        facebook: "",
+        instagram: "",
+        twitter: ""
+    },
+    {
+        id: 9,
+        img: images.Roland,
+        name: "Oodo Roland Uchenna freeman",
+        skill: "Web Developer",
+        birthday: "13th December",
+        facebook: "",
+        instagram: "",
+        twitter: ""
+    },
+    {
+        id: 10,
+        img: images.testimonial2,
+        name: "Oodo Kingsley Chinedu",
+        skill: "Sales Representative",
+        birthday: "10th September",
+        facebook: "",
+        instagram: "",
+        twitter: ""
+    },
+    {
+        id: 11,
+        img: images.testimonial1,
+        name: "Iyidiobi Rotanna",
+        skill: "Civil Engineer",
+        birthday: "7th July",
+        facebook: "",
+        instagram: "",
+        twitter: ""
+    },
+    {
+        id: 12,
+        img: images.testimonial3,
+        name: "Mba Sopuluchukwu",
+        skill: "Lab Scientist",
+        birthday: "3rd March",
+        facebook: "",
+        instagram: "",
+        twitter: ""
+    },
     
 ]
 export const accordion = [

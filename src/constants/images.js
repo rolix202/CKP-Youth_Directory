@@ -12,6 +12,7 @@ import faq from "../assets/images/faq.jpg";
 import developer_img from "../assets/images/developer.jpeg";
 import roland_dev from "../assets/images/roland.jpg";
 import ckp_royal from "../assets/images/ckp_royal.jpg";
+import header_background from "../assets/images/header_background.jpg";
 
 const images = {
     Logo,
@@ -28,5 +29,6 @@ const images = {
     developer_img,
     roland_dev,
     ckp_royal,
+    header_background,
 }
 export default images;
