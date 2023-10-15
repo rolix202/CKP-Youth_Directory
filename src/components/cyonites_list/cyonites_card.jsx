@@ -25,7 +25,9 @@ function CyoniteCard(props) {
                 <div className="card-body cyonite_info">
                     <h4 className="card-title cyonite_name"><span>Name:</span> {props.name} </h4>
                     <p className="card-text text-success fw-bold cyonite_skill"><span>Skill:</span>{props.skill} </p>
-                    <p className="card-text cyonite_birth fw-bold"><span>BirthDay:</span> {props.birthday} </p>
+                    <p className="card-text cyonite_birth fw-bold"><span>Station:</span> {props.station} </p>
+
+                    <p className="card-text text-success cyonite_birth fw-bold"><span>BirthDay:</span> {props.birthday} </p>
                 </div>
 
                 <div className="card-footer">

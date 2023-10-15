@@ -15,6 +15,7 @@ function CyonitesList() {
                 name={createCard.name}
                 skill={createCard.skill}
                 birthday={createCard.birthday}
+                station={createCard.station}
             />
         )
     }

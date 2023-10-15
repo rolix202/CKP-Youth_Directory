@@ -1,0 +1,22 @@
+.search_section{
+    margin-top: 20px;
+}
+.has-search{
+    position: relative;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    font-size: 20px;
+    top: 9px;
+    left: 8px;
+    pointer-events: none;
+
+}
+.filter_active{
+    background-color: red;
+}

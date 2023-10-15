@@ -6,7 +6,7 @@ export const featured_info = [
         image: images.Roland,
         role: "PARISH PRIEST",
         name: "Rev. Fr Nicodemus Ugwoke",
-        quote: "God does not give us everything we want, but He does fulfill His promises."
+        quote: "God does not give us everything we want, but He does fulfill His promises.",
     },
     {
         id: 2,
@@ -40,7 +40,8 @@ export const cyonites_info = [
         birthday: "13th December",
         facebook: "",
         instagram: "",
-        twitter: ""
+        twitter: "",
+        station: "Immaculate Heart Station",
     },
     {
         id: 2,
@@ -50,7 +51,8 @@ export const cyonites_info = [
         birthday: "10th September",
         facebook: "",
         instagram: "",
-        twitter: ""
+        twitter: "",
+        station: "St. Michael Station",
     },
     {
         id: 3,
@@ -60,7 +62,8 @@ export const cyonites_info = [
         birthday: "7th July",
         facebook: "",
         instagram: "",
-        twitter: ""
+        twitter: "",
+        station: "St. Thomas Station",
     },
     {
         id: 4,
@@ -70,7 +73,8 @@ export const cyonites_info = [
         birthday: "3rd March",
         facebook: "",
         instagram: "",
-        twitter: ""
+        twitter: "",
+        station: "St. Michael Station",
     },
     {
         id: 5,
@@ -80,7 +84,8 @@ export const cyonites_info = [
         birthday: "13th December",
         facebook: "",
         instagram: "",
-        twitter: ""
+        twitter: "",
+        station: "Immaculate Heart Station",
     },
     {
         id: 6,
@@ -90,7 +95,8 @@ export const cyonites_info = [
         birthday: "10th September",
         facebook: "",
         instagram: "",
-        twitter: ""
+        twitter: "",
+        station: "St. Michael Station",
     },
     {
         id: 7,
@@ -100,7 +106,8 @@ export const cyonites_info = [
         birthday: "7th July",
         facebook: "",
         instagram: "",
-        twitter: ""
+        twitter: "",
+        station: "St. Thomas Station",
     },
     {
         id: 8,
@@ -110,7 +117,8 @@ export const cyonites_info = [
         birthday: "3rd March",
         facebook: "",
         instagram: "",
-        twitter: ""
+        twitter: "",
+        station: "Immaculate Heart Station",
     },
     {
         id: 9,
@@ -120,7 +128,8 @@ export const cyonites_info = [
         birthday: "13th December",
         facebook: "",
         instagram: "",
-        twitter: ""
+        twitter: "",
+        station: "St. Michael Station",
     },
     {
         id: 10,
@@ -130,7 +139,8 @@ export const cyonites_info = [
         birthday: "10th September",
         facebook: "",
         instagram: "",
-        twitter: ""
+        twitter: "",
+        station: "St. Michael Station",
     },
     {
         id: 11,
@@ -140,7 +150,8 @@ export const cyonites_info = [
         birthday: "7th July",
         facebook: "",
         instagram: "",
-        twitter: ""
+        twitter: "",
+        station: "St. Thomas Station",
     },
     {
         id: 12,
@@ -150,7 +161,8 @@ export const cyonites_info = [
         birthday: "3rd March",
         facebook: "",
         instagram: "",
-        twitter: ""
+        twitter: "",
+        station: "Immaculate Heart Station",
     },
     
 ]
