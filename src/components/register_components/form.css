@@ -1,0 +1,7 @@
+.regform .row label{
+    font-weight: 600;
+}
+.regform .row label span{
+    padding-right: 8px;
+    color: rgb(99, 139, 18);
+}

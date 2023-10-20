@@ -48,9 +48,9 @@ function Header() {
                     <NavItem key={item.name} name={item.name} path={item.path} />
                 ))}
               </ul>
-              <button className="btn btn-outline-success rounded-pill" type="submit">
-                Sign UP
-              </button>
+              <NavLink to={"/register"} className="btn btn-outline-success rounded-pill">
+                Register
+              </NavLink>
             </div>
           </div>
         </nav>

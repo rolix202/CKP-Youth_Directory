@@ -1,0 +1,28 @@
+.register_section{
+    position: relative;
+    top: 70px;
+}
+.register_title{
+    padding: 80px;
+    text-align: center;
+}
+.register_title h1{
+    font-size: 44px;
+    color: white;
+}
+.register_title p{
+    width: 75%;
+    margin: 0 auto;
+    color: rgb(185, 180, 180);
+    padding-top: 15px;
+}
+.register_span{
+    border-bottom: 2px solid yellowgreen;
+}
+.register_getStarted{
+    color: yellowgreen;
+    font-size: 20px;
+}
+.register_body{
+    padding: 50px;
+}

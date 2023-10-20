@@ -15,7 +15,6 @@ function CyonitesList() {
                 name={createCard.name}
                 skill={createCard.skill}
                 birthday={createCard.birthday}
-                station={createCard.station}
             />
         )
     }
@@ -25,7 +24,7 @@ function CyonitesList() {
 
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4 mt-4">
 
-                {cyonites_info.map(cyoniteCard)}
+                {cyonites_info.slice(0, 8).map(cyoniteCard)}
 
             </div>
 

@@ -5,6 +5,7 @@ import CyoniteCard from "../cyonites_list/cyonites_card";
 
 import { FaSearch } from "react-icons/fa";
 import FilterButtons from "./filter_buttons";
+import ErrorPage from "./cyonite_not_found";
 
 
 const navMenus = ["All", ...new Set(cyonites_info.map((item) => item.station))];
@@ -63,10 +64,10 @@ function CyoniteFilter() {
         
       </nav>
 
-      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4 mt-2">
+      {filteredItems.length === 0 ? (<ErrorPage />) : (
+        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4 mt-2">
 
-        {filteredItems.length === 0 ? ("No Cyonite found") : (
-            filteredItems.map((item, index) => (
+        {filteredItems.map((item, index) => (
                 <CyoniteCard
                   key={index}
                   image={item.img}
@@ -76,9 +77,11 @@ function CyoniteFilter() {
                   station={item.station}
                 />
               ))
-        )}
-       
+        }
       </div>
+      ) }
+
+      
     </section>
   );
 }

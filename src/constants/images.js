@@ -13,6 +13,9 @@ import developer_img from "../assets/images/developer.jpeg";
 import roland_dev from "../assets/images/roland.jpg";
 import ckp_royal from "../assets/images/ckp_royal.jpg";
 import header_background from "../assets/images/header_background.jpg";
+import emoji from "../assets/images/emoji.png";
+import green_gradient from "../assets/images/green_gradient.jpg";
+
 
 const images = {
     Logo,
@@ -30,5 +33,7 @@ const images = {
     roland_dev,
     ckp_royal,
     header_background,
+    emoji,
+    green_gradient,
 }
 export default images;
