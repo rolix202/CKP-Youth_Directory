@@ -5,3 +5,8 @@
     padding-right: 8px;
     color: rgb(99, 139, 18);
 }
+.regform .row input::placeholder, .form-select option:disabled:checked{
+    font-size: 13px;
+    font-style: italic;
+    color: rgb(192, 191, 191);
+}

@@ -28,18 +28,7 @@ function Modal(){
                     <ModalForm />
                   </div>
 
-                  <div className="modal-footer">
-                    <button
-                      type="button"
-                      className="btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                    <button type="Submit" className="btn btn-primary">
-                      Submit
-                    </button>
-                  </div>
+                  
                 </div>
               </div>
             </div>
