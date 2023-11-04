@@ -30,23 +30,23 @@ function CyoniteFilter() {
     setFilteredItems(filtered);
   }
 
-  function filterButtons(station){
-    if (station === "All"){
-       setFilteredItems(cyonites_info)
+  function filterButtons(station) {
+    if (station === "All") {
+      setFilteredItems(cyonites_info)
     }
-    else{
-        const letsFilter = cyonites_info.filter((item) => item.station === station);
-        setFilteredItems(letsFilter)
+    else {
+      const letsFilter = cyonites_info.filter((item) => item.station === station);
+      setFilteredItems(letsFilter)
     }
-    
+
   }
 
   return (
     <section className="cyonite_filter container">
-        
+
       <nav className="navbar search_section">
         <form action="" className="d-flex form-group has-search" role="search">
-        <FaSearch className="form-control-feedback"/>
+          <FaSearch className="form-control-feedback" />
           <input
             type="search"
             className="form-control me-2"
@@ -56,32 +56,32 @@ function CyoniteFilter() {
             onChange={handleChange}
           />
         </form>
-        <FilterButtons 
-            navMenus={navMenus}
-            filterButtons={filterButtons}
+        <FilterButtons
+          navMenus={navMenus}
+          filterButtons={filterButtons}
         />
 
-        
+
       </nav>
 
       {filteredItems.length === 0 ? (<ErrorPage />) : (
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4 mt-2">
 
-        {filteredItems.map((item, index) => (
-                <CyoniteCard
-                  key={index}
-                  image={item.img}
-                  name={item.name}
-                  skill={item.skill}
-                  birthday={item.birthday}
-                  station={item.station}
-                />
-              ))
-        }
-      </div>
-      ) }
+          {filteredItems.map((item, index) => (
+            <CyoniteCard
+              key={index}
+              image={item.img}
+              name={item.name}
+              skill={item.skill}
+              birthday={item.birthday}
+              station={item.station}
+            />
+          ))
+          }
+        </div>
+      )}
 
-      
+
     </section>
   );
 }

@@ -1,4 +1,5 @@
 import { images } from "./constants";
+import { FaHouse, FaUserTie, FaUserPlus, FaPeopleGroup, FaAddressBook, FaPersonCircleCheck, FaPersonCirclePlus } from "react-icons/fa6";
 
 export const featured_info = [
     {
@@ -164,7 +165,7 @@ export const cyonites_info = [
         twitter: "",
         station: "Immaculate Heart Station",
     },
-    
+
 ]
 export const accordion = [
     {
@@ -182,4 +183,41 @@ export const accordion = [
         title: "Connect with fellow members",
         body: "Connect with fellow CKP Cyon members to build lasting friendships, share experiences, and grow together in faith. Join our community events, discussions, and social gatherings. Stay engaged online through our forums and social media groups."
     }
+]
+export const nav = [
+    {
+        id: 1,
+        link: "Dashboard",
+        icon: <FaHouse />
+    },
+    {
+        id: 2,
+        link: "Admins",
+        icon: <FaUserTie />
+    },
+    {
+        id: 3,
+        link: "Create Admin",
+        icon: <FaUserPlus />
+    },
+    {
+        id: 4,
+        link: "View Cyonites",
+        icon: <FaPeopleGroup />
+    },
+    {
+        id: 5,
+        link: "Add Cyonite",
+        icon: <FaAddressBook />
+    },
+    {
+        id: 6,
+        link: "Featured Persons",
+        icon: <FaPersonCircleCheck />
+    },
+    {
+        id: 7,
+        link: "Add Featured Person",
+        icon: <FaPersonCirclePlus />
+    },
 ]

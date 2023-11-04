@@ -6,6 +6,7 @@ import Cyonites from "./pages/cyonites_dir/cyonites";
 import AboutCkp from "./pages/about_ckp";
 import Register from "./pages/register/register";
 import "./App.css"
+import Admin from "./pages/admin";
 // import MainLayout from "./components/main_layout";
 
 function App(){
@@ -19,6 +20,7 @@ function App(){
         <Route path="/cyonites" element={<Cyonites/>} />
         <Route path="/developer" element={<HireMe/>} />
         <Route path="/register" element={<Register />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
    

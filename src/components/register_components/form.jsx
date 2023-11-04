@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { FaUser, FaAddressBook, FaPhone, FaChurch, FaCalendarDays, FaUserGear, FaCircleUser, FaKey, FaFacebook, FaXTwitter, FaInstagram } from "react-icons/fa6";
 import "./form.css"
 
@@ -40,6 +40,7 @@ function RegForm() {
 
     function handleImageUpload(e) {
         setProfileImage(e.target.files[0])
+
     }
 
     function handleSubmit(e) {
@@ -64,6 +65,25 @@ function RegForm() {
                         console.log("Image uploaded successfully");
                         console.log("Image URL:", data.url);
                         console.log("Form Data:", formDetails);
+
+                        // Reset the form by setting formDetails back to an empty object
+                    setFormDetails({
+                        fname: "",
+                        lname: "",
+                        address: "",
+                        phone: "",
+                        password: "",
+                        confirmPass: "",
+                        station: "",
+                        DOB: "",
+                        skill: "",
+                        facebook: "",
+                        twitter: "",
+                        instagram: "",
+                    });
+
+                    // Clear the selected profile image
+                    setProfileImage("");
                     })
                     .catch((error) => {
                         console.error("Error uploading the image:", error);
