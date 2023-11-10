@@ -1,5 +1,6 @@
+import { FaSignOutAlt } from "react-icons/fa";
 import { images } from "./constants";
-import { FaHouse, FaUserTie, FaUserPlus, FaPeopleGroup, FaAddressBook, FaPersonCircleCheck, FaPersonCirclePlus } from "react-icons/fa6";
+import { FaHouse, FaUserTie, FaUserPlus, FaPeopleGroup, FaAddressBook, FaPersonCircleCheck, FaPersonCirclePlus, FaGear } from "react-icons/fa6";
 
 export const featured_info = [
     {
@@ -187,37 +188,56 @@ export const accordion = [
 export const nav = [
     {
         id: 1,
+        path: ".",
         link: "Dashboard",
         icon: <FaHouse />
     },
     {
         id: 2,
+        path: "admins",
         link: "Admins",
         icon: <FaUserTie />
     },
     {
         id: 3,
+        path: "create-admin",
         link: "Create Admin",
         icon: <FaUserPlus />
     },
     {
         id: 4,
+        path: "view-cyonites",
         link: "View Cyonites",
         icon: <FaPeopleGroup />
     },
     {
         id: 5,
+        path: "add-cyonite",
         link: "Add Cyonite",
         icon: <FaAddressBook />
     },
     {
         id: 6,
+        path: "featured-persons",
         link: "Featured Persons",
         icon: <FaPersonCircleCheck />
     },
     {
         id: 7,
+        path: "add-featured-person",
         link: "Add Featured Person",
         icon: <FaPersonCirclePlus />
+    },
+    {
+        id: 8,
+        path: "settings",
+        link: "Settings",
+        icon: <FaGear />
+    },
+    {
+        id: 9,
+        path: "sign-out",
+        link: "Sign out",
+        icon: <FaSignOutAlt />
     },
 ]

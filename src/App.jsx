@@ -1,29 +1,105 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Homepage from "./pages/home/homepage";
-import HireMe from "./pages/hire_me";
-import Cyonites from "./pages/cyonites_dir/cyonites";
-import AboutCkp from "./pages/about_ckp";
-import Register from "./pages/register/register";
-import "./App.css"
-import Admin from "./pages/admin";
-// import MainLayout from "./components/main_layout";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import "./App.css";
+import {
+  AddCyonite,
+  AddFeaturedPerson,
+  Admins,
+  CreateAdmin,
+  DashboardContent,
+  DashbordLayout,
+  FeaturedPersons,
+  Settings,
+  SignOut,
+  ViewCyonites,
+  HomeLayout,
+  AdminLogin,
+  Register,
+  AboutCkp,
+  Cyonites,
+  HireMe,
+  Homepage,
+} from "./pages/Dashboard/index";
 
-function App(){
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <HomeLayout />,
+    children: [
+      {
+        index: true,
+        element: <Homepage />,
+      },
+      {
+        path: "cyonites",
+        element: <Cyonites />,
+      },
+      {
+        path: "ckp",
+        element: <AboutCkp />,
+      },
+      {
+        path: "developer",
+        element: <HireMe />,
+      },
+      {
+        path: "register",
+        element: <Register />,
+      },
+      {
+        path: "admin",
+        element: <AdminLogin />,
+      },
+      {
+        path: "dashboard",
+        element: <DashbordLayout />,
+        children: [
+          {
+            index: true,
+            element: <DashboardContent />,
+          },
+          {
+            path: "admins",
+            element: <Admins />,
+          },
+          {
+            path: "create-admin",
+            element: <CreateAdmin />,
+          },
+          {
+            path: "view-cyonites",
+            element: <ViewCyonites />,
+          },
+          {
+            path: "add-cyonite",
+            element: <AddCyonite />,
+          },
+          {
+            path: "featured-persons",
+            element: <FeaturedPersons />,
+          },
+          {
+            path: "add-featured-person",
+            element: <AddFeaturedPerson />,
+          },
+          {
+            path: "settings",
+            element: <Settings />,
+          },
+          {
+            path: "sign-out",
+            element: <SignOut />,
+          },
+        ],
+      },
+    ],
+  },
+]);
 
-  // console.log(window.location);
+function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Homepage/>} />
-        <Route path="/ckp" element={<AboutCkp/>} />
-        <Route path="/cyonites" element={<Cyonites/>} />
-        <Route path="/developer" element={<HireMe/>} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/admin" element={<Admin />} />
-      </Routes>
-    </BrowserRouter>
-   
-  )
+    
+    <RouterProvider router={router} />
+  );
 }
 export default App;
