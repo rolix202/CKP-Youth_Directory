@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/css/hero.css";
 import { images } from "../constants";
+import { Link } from "react-router-dom";
 
 function Hero() {
   const bg_hero = {
@@ -28,9 +29,10 @@ function Hero() {
             </p>
 
             <div className="d-grid gap-2 d-md-block">
-              <button className="btn btn-success btn-lg mt-3 view_cbtn">
+              <Link to="/cyonites" className="btn btn-success btn-lg mt-3 view_cbtn">View CKP Cyonites</Link>
+              {/* <button className="btn btn-success btn-lg mt-3 view_cbtn">
                 View CKP Cyonites
-              </button>
+              </button> */}
             </div>
 
             {/* <div class="d-grid gap-2 d-md-block">

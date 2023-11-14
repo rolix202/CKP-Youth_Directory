@@ -4,6 +4,7 @@ import "./cyonites_list.css";
 // import CyoniteCard from "./cyonites_card";
 import { FaArrowRightLong } from "react-icons/fa6";
 import CyonitesList from "./cyonites_list";
+import { Link } from "react-router-dom";
 
 
 function CyonitesSection() {
@@ -27,7 +28,8 @@ function CyonitesSection() {
             <CyonitesList />
 
             <div className="d-grid gap-2 col-6 mx-auto mt-5">
-                <button className="btn btn-success" type="button">More Cyonites <FaArrowRightLong/> </button>
+                <Link to="/cyonites" className="btn btn-success" type="button">More Cyonites <FaArrowRightLong/></Link>
+                {/* <button className="btn btn-success" type="button">More Cyonites <FaArrowRightLong/> </button> */}
             </div>
         </section>
     );
