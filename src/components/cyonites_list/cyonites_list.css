@@ -18,22 +18,24 @@ height: 100%;
 object-fit: cover;
 }
 
-.cyonite_name{
-    font-family: 'Caveat', cursive;
+.cyonite_name, .cyonite_station{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
 }
 .cyonite_skill{
     font-family: 'Jost', sans-serif;
 }
-.cyonite_birth{
+/* .cyonite_birth{
     margin-top: -10px;
-}
+} */
 .cyonite_info span{
     font-size: 13px;
-    color: red;
+    color: blue;
+    text-decoration: underline;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     padding-right: 4px;
-    text-shadow: 3px -1px 4px rgba(40,182,57,0.6);
 }
 .cyonite_socials{
     font-size: 20px;

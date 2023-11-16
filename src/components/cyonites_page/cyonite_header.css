@@ -13,3 +13,8 @@
     width: 75%;
     margin: 0 auto;
 }
+@media (max-width: 767px) {
+    .cyonite_header{
+        padding: 70px 0px;
+    }
+}

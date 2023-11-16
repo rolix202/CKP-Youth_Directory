@@ -17,3 +17,20 @@
     pointer-events: none;
 
 }
+
+@media (max-width: 767px) {
+    .filter_button-section{
+        margin-top: 10px;
+    }
+   .filter_button-section button{
+    font-size: 15px;
+    line-height: 1.2;
+    padding: 2px 5px;
+   }
+   .container{
+    width: 100%;
+   }
+   .cyonite_filter{
+    --bs-gutter-x: 0.5rem !important;
+   }
+}

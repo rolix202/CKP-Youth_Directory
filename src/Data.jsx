@@ -37,7 +37,7 @@ export const cyonites_info = [
     {
         id: 1,
         img: images.Roland,
-        name: "Oodo Roland Uchenna freeman",
+        name: "Oodo Roland Uchenna",
         skill: "Web Developer",
         birthday: "13th December",
         facebook: "",
